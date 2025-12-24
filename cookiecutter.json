@@ -1,0 +1,18 @@
+{
+    "project_name": "Simple Project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "PI": "Anonymous Collaborator",
+    "PI_email": "collab@versiti.org",
+    "author": "My Name",
+    "author_email": "name@versiti.org",
+    "conda_env": "base",
+    "__prompts__": {
+        "project_name": "Enter project name",
+        "project_slug": "Enter project root directory name",
+        "PI": "Enter PI's (collaborator's) name",
+        "PI_email": "Enter PI's (collaborator's) email ID",
+        "author": "Enter your name",
+        "author_email": "Enter your email",
+        "conda_env": "Enter working Conda environment"
+    }
+}
