@@ -2,9 +2,9 @@
     "project_name": "Simple Project",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "PI": "Anonymous Collaborator",
-    "PI_email": "collab@versiti.org",
+    "PI_email": "collab@gmail.org",
     "author": "My Name",
-    "author_email": "name@versiti.org",
+    "author_email": "name@gmail.org",
     "conda_env": "base",
     "__prompts__": {
         "project_name": "Enter project name",
