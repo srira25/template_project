@@ -6,11 +6,11 @@ This cookiecutter template helps streamlining the creation of a project director
 
 ## Quickstart
 
-Install the latest Cookiecutter if you haven't installed it yet:
+1. Install the latest Cookiecutter if you haven't installed it yet:
 
 pip install cookiecutter
 
-Once installed, you can run the following command on your terminal:
+2. Once installed, you can run the following command on your terminal:
 
 cookiecutter https://github.com/audreyfeldroy/cookiecutter-pypackage.git
 
