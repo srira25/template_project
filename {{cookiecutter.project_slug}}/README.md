@@ -9,7 +9,7 @@ Explain the project
 Where and how do I get the data?
 
 ## Directory Structure
-
+```
 📁 {{ cookiecutter.project_slug }}  
 ├─ 📁 inputfiles/  
 │  ├─ 📁 raw/  
@@ -23,7 +23,8 @@ Where and how do I get the data?
 └─ 📁 src/  
    ├─ 📁 SLURM_scripts/ -  
    └─ 📄 template.py  
-   
+```
+
 ## Who do I talk to?
 
 The project was proposed by {{ cookiecutter.PI }} ({{ cookiecutter.PI_email}})
