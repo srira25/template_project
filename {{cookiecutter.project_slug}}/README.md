@@ -10,19 +10,19 @@ Where and how do I get the data?
 
 ## Directory Structure
 
-📁 {{ cookiecutter.project_slug }}
-├─ 📁 inputfiles/
-│  ├─ 📁 raw/
-│  │  ├─ 📊 template.xlsx - 
-│  │  └─ 📊 template.pdf - 
-│  └─ 📁 processed/ - The PDB files and any larger files are on **BRIDATA/cBio**
-│     ├─ 📊 template.json - 
-│     └─ 📊 template.csv - 
-├─ 📁 results/
-├─ 📁 SLURM_output/
-└─ 📁 src/
-   ├─ 📁 SLURM_scripts/ - 
-   └─ 📄 template.py
+📁 {{ cookiecutter.project_slug }}  
+├─ 📁 inputfiles/  
+│  ├─ 📁 raw/  
+│  │  ├─ 📊 template.xlsx -  
+│  │  └─ 📊 template.pdf -  
+│  └─ 📁 processed/ - The PDB files and any larger files are on **BRIDATA/cBio**  
+│     ├─ 📊 template.json -  
+│     └─ 📊 template.csv -  
+├─ 📁 results/  
+├─ 📁 SLURM_output/  
+└─ 📁 src/  
+   ├─ 📁 SLURM_scripts/ -  
+   └─ 📄 template.py  
    
 ## Who do I talk to?
 
