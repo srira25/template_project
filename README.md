@@ -12,7 +12,7 @@ pip install cookiecutter
 
 2. Once installed, you can run the following command on your terminal:
 
-cookiecutter https://github.com/audreyfeldroy/cookiecutter-pypackage.git
+cookiecutter gh:srira25/template_project
 
 There will be a few prompts to set up some variables within the project files. If you skip this now, default values will be assumed (within parenthesis below), and can be changed later as well by editing the individual files.
 
