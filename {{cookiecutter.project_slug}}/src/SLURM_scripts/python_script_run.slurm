@@ -6,7 +6,7 @@
 #SBATCH --time=20:00:00
 #SBATCH --output=$((INSTALL))/SLURM_output/%x-%A_%a.out
 #SBATCH --error=$((INSTALL))/SLURM_output/%x-%A_%a.out
-#SBATCH --account=tgu
+#SBATCH --account=temp
 #SBATCH --mail-type=ALL
 #SBATCH --array=0-0
 #SBATCH --mail-user={{ cookiecutter.author_email }}

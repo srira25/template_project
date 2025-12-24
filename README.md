@@ -21,9 +21,9 @@ These are the prompts:
 [1/7] Enter project name (Simple Project):  
 [2/7] Enter project root directory name (simple_project):  
 [3/7] Enter PI's (collaborator's) name (Anonymous Collaborator):  
-[4/7] Enter PI's (collaborator's) email ID (collab@versiti.org):  
+[4/7] Enter PI's (collaborator's) email ID (collab@company.org):  
 [5/7] Enter your name (My Name):  
-[6/7] Enter your email (name@versiti.org):  
+[6/7] Enter your email (name@company.org):  
 [7/7] Enter working Conda environment (base):  
 
 ## Who do I talk to?
