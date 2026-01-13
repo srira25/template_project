@@ -6,9 +6,9 @@ Explain the project
 
 ## Data Type
 
-PI: {{ cookiecutter.PI }}
-Assay: 
-Organism:
+PI: {{ cookiecutter.PI }}  
+Assay:  
+Organism:  
 
 ## Data Access
 
