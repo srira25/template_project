@@ -5,21 +5,31 @@
 #SBATCH --mem-per-cpu=10gb
 #SBATCH --time=20:00:00
 #SBATCH --output=$((INSTALL))/SLURM_output/%x-%A_%a.out
-#SBATCH --error=$((INSTALL))/SLURM_output/%x-%A_%a.out
+#SBATCH --error=$((INSTALL))/SLURM_output/%x-%A_%a.err
 #SBATCH --account=temp
 #SBATCH --mail-type=ALL
 #SBATCH --array=0-0
 #SBATCH --mail-user={{ cookiecutter.author_email }}
 
+set -euo pipefail
+
 start=$(date +%s)
 echo "===== JOB STARTED AT $(date) ====="
+
+mainDir=((INSTALL))
+inputDir="${mainDir}/inputfiles"
+rawDir="${inputDir}/raw"
+processedDir="${inputDir}/processed"
+srcDir="${mainDir}/src"
+resultsDir="${mainDir}/results"
 
 module load miniforge
 module load gcc/13.3.0
 conda activate {{ cookiecutter.conda_env }}
+
 echo $(module list 2>&1)
 echo "Script executed from: ${PWD}"
-python $((INSTALL))/src/template.py
+python "${srcDir}/template.py"
 
 end=$(date +%s)
 runtime=$((end - start))

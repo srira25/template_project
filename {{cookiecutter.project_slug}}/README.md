@@ -4,6 +4,12 @@
 
 Explain the project
 
+## Data Type
+
+PI: {{ cookiecutter.PI }}
+Assay: 
+Organism:
+
 ## Data Access
 
 Where and how do I get the data?
@@ -24,6 +30,8 @@ Where and how do I get the data?
    ├─ 📁 SLURM_scripts/ -  
    └─ 📄 template.py  
 ```
+
+## Project Updates
 
 ## Who do I talk to?
 
