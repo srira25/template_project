@@ -16,7 +16,7 @@ set -euo pipefail
 start=$(date +%s)
 echo "===== JOB STARTED AT $(date) ====="
 
-mainDir=((INSTALL))
+mainDir=$((INSTALL))
 inputDir="${mainDir}/inputfiles"
 rawDir="${inputDir}/raw"
 processedDir="${inputDir}/processed"
